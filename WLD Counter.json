@@ -3,7 +3,30 @@
   "backendCommand": "",
   "backendFolderName": "",
   "certificateExceptions": [],
-  "extensionViews": [],
+  "extensionViews": [
+    {
+      "channelId": "17365120",
+      "configurationAnchor": "video_overlay",
+      "displayChannelName": "thaetus_",
+      "features": {
+        "isBitsEnabled": false,
+        "isChatEnabled": false,
+        "isSubscriptionStatusAvailable": false
+      },
+      "frameSize": {
+        "width": 1280,
+        "height": 720
+      },
+      "id": "1",
+      "isPopout": false,
+      "label": "Overlay",
+      "linked": false,
+      "linkedUserId": "",
+      "orientation": "Portrait",
+      "type": "video_overlay",
+      "viewerType": "Broadcaster"
+    }
+  ],
   "manifest": {
     "anchor": "video_overlay",
     "assetUrls": [],
@@ -52,7 +75,7 @@
     "whitelistedPanelUrls": []
   },
   "frontendCommand": "",
-  "frontendFolderName": "",
+  "frontendFolderName": "dist",
   "name": "WLD Counter",
   "usingRandomFrontendHostingPort": false,
   "version": 3
